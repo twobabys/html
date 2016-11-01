@@ -1,0 +1,108 @@
+body {
+	min-height: 100vh;
+	background: url(../image/home-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.container .row .search {
+	height: 20vw;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	margin-top: 20px;
+}
+.container .row .right-block {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+.container .row .right-block .title {
+	padding: 0.5em;
+	font-weight: bold;
+}
+.container .row .tips .title {
+	background: #ff5151;
+	background: -moz-linear-gradient(left,  #4f4f4f 0%, #ff5151 100%);
+	background: -webkit-linear-gradient(left,  #4f4f4f 0%, #ffd306 100%);
+}
+.container .row .blog .title {
+	background: #ff5151;
+	background: -moz-linear-gradient(left,  #4f4f4f 0%, #ff5151 100%);
+	background: -webkit-linear-gradient(left,  #4f4f4f 0%, #ff5151 100%);
+}
+.container .row .music .title {
+	background: #ae57a4;
+	background: -moz-linear-gradient(left,  #4f4f4f 0%, #ae57a4 100%);
+	background: -webkit-linear-gradient(left,  #4f4f4f 0%, #ae57a4 100%);
+}
+.container .row .right-block .title span {
+	margin-right: 0.5em;
+}
+.container .row .blog .blog-owner {
+    padding-left: 0.5em;
+}
+.container .row .blog .blog-owner a {
+	color: #fff;
+	text-decoration: none;
+}
+.container .row .blog .blog-owner a:hover {
+	color: #ff5151;
+	font-weight: bold;
+}
+.container .row .music .music-content audio {
+	opacity: 0.8;
+	width: 92%;
+	margin-left: 4%;
+}
+.container .row .music .music-content li {
+	line-height: 1.5em;
+	cursor: pointer;
+}
+.container .row .music .music-content li:hover {
+	color: #ca8eff;
+}
+.container .row .music .music-content li.on {
+	color: #d2a2cc;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.container .row .music .music-content .more {
+	text-align: right;
+	padding-right: 4%;
+}
+.container .row .music .music-content .more a {
+	text-decoration: none;
+	color: #fff;
+}
+.container .row .music .music-content .more a:hover {
+	color: #ca8eff;
+	font-weight: bold;
+}
+.container .row .tips .para {
+	padding-left: 2%;
+}
+.container .row .tips .lunar-week {
+	width: 96%;
+	margin-left: 2%;
+	padding-bottom: 0.5em;
+	border-bottom: 1px dashed #ffd306;
+	position: relative;
+}
+.container .row .tips #week_obj {
+	margin-left: 1em;
+}
+.container .row .tips .lunar-week a {
+	text-decoration: none;
+	color: #ffd306;
+	position: absolute;
+	right: 0;
+}
+.container .row .tips .lunar-week a:hover {
+	font-weight: bold;
+}
+.container .row .tips .glyphicon-heart {
+	color: #ffed97;
+}

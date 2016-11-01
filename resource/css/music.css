@@ -1,0 +1,22 @@
+body {
+	min-height: 100vh;
+	background: url(../image/music-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.container{
+	height: 100vh;
+}
+.container .row {
+	height: 92%;
+	margin-top: 3%;
+	box-shadow: 0 0 20px 2px #9f35ff;
+}
+.container .row .left {
+	height: 100%;
+	background-color: rgba(241,225,255,0.95);
+}
+.container .row .right {
+	height: 100%;
+	background-color: rgba(241,225,255,0.9);
+	overflow: hidden;
+}
